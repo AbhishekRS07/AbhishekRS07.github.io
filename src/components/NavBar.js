@@ -4,9 +4,10 @@ import logoMain from "../assets/img/logoMain.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-
+import resume from "../assets/resume.pdf"
 import { BrowserRouter as Router } from "react-router-dom";
-const PDF_FILE = "http://localhost:3000/resume.pdf";
+
+const PDF_FILE = "https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
@@ -118,7 +119,7 @@ export const NavBar = () => {
                     ? "active navbar-link"
                     : "navbar-link"
                 }
-                onClick={ ()=>{downloadFileAtURL(PDF_FILE)}}
+                onClick={ ()=>{downloadFileAtURL(resume)}}
                 
               >
                 Resume

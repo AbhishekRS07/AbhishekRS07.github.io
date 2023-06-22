@@ -1,6 +1,6 @@
 import React from "react";
 import footer from "../assets/img/footer-bg.png";
-
+import resume from "../assets/resume.pdf"
 const PDF_FILE = "https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link"
 
 
@@ -82,7 +82,7 @@ const About = () => {
           width: "auto",
           padding: "9px",
           borderRadius: "3px",
-        }}  onClick={()=>{downloadFileAtURL(PDF_FILE)}}
+        }}  onClick={()=>{downloadFileAtURL(resume)}}
       >
         Download Resume{" "}
       </button>
