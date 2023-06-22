@@ -54,7 +54,7 @@ export const Contact = () => {
                     <a style={{textDecoration:"none", color:"white",}}
                        
                       target="_blank"
-                      id="contact-linkedin"  href="https://linkedin.com/in/abhishekrs07"
+                      id="contact-linkedin"  href="https://www.linkedin.com/in/abhishekrs07"
                     >
                       Abhishek Raj Singh
                     </a>
