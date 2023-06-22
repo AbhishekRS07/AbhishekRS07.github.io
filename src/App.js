@@ -7,6 +7,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import  About  from "./components/About";
 import TechStacks from './components/TechStacks';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
+      <About/>
       <Skills />
       <TechStacks/>
       <Projects />

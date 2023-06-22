@@ -74,14 +74,7 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <p style={{ color: "white" }}>
-                    I’m a web developer. I spend my whole day, practically every
-                    day, experimenting with HTML, CSS and JavaScript; dabbling
-                    with React and Jsx; and inhaling a wide variety of
-                    potentially useless information through a few hundred tech
-                    feeds. I build websites that delight and inform. I do it
-                    well.
-                  </p>
+                
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>

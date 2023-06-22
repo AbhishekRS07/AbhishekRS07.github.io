@@ -10,16 +10,32 @@ import react from "../assets/img/react.png"
 
 const TechStacks = () => {
   return (
-    <div  style={{display:"flex",height:"100px",alignItems:"center" ,justifyContent:"space-around", backgroundColor:"whitesmoke"}} className='techStacks' >
-       <img style={{width:"6%"}} src={java} alt=''/>
-       <img style={{width:"6%"}} src={javascript} alt=''/>
-       <img style={{width:"6%"}} src={html} alt=''/>
-       <img style={{width:"6%"}} src={css} alt=''/>
-       <img style={{width:"6%"}} src={mongodb} alt=''/>
-       <img  style={{width:"6%"}} src={github} alt=''/>
-       <img style={{width:"6%"}} src={netlify} alt=''/>
-       <img style={{width:"6%"}} src={react} alt=''/>
-
+    <div  style={{display:"flex",height:"180px",alignItems:"center" ,justifyContent:"space-around", backgroundColor:"black"}} className='techStacks' >
+         
+         <div  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+         <img style={{width:"75%"}} src={java} alt=''/>
+         </div>
+          <div  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <img style={{width:"75%"}} src={javascript} alt=''/>
+          </div>
+          <div  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <img style={{width:"75%"}} src={html} alt=''/>
+          </div>
+          <div  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <img style={{width:"75%"}} src={css} alt=''/>
+          </div>
+          <div  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <img style={{width:"75%"}} src={mongodb} alt=''/>
+          </div>
+          <div  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <img  style={{width:"75%"}} src={github} alt=''/>
+          </div>
+          <div  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <img style={{width:"75%"}} src={netlify} alt=''/>
+          </div>
+          <div style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}> 
+            <img style={{width:"75%"}} src={react} alt=''/>
+         </div>
       
     </div>
   )
