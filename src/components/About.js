@@ -20,8 +20,9 @@ const About = () => {
 
 
   return (
-    <div
+    <div 
       id="about"
+      class="about section"
       style={{
         width: "100%",
         padding: "60px",
@@ -38,7 +39,7 @@ const About = () => {
           lineHeight: "1.5em",
           width: "96%",
         }}
-       id= 'about.about.section'
+      
       >
         About Me{" "}
       </h3>
@@ -62,7 +63,7 @@ const About = () => {
         well suited to the job at hand.
       </p>
 
-      <button id="resume-button-2"
+      <button 
         style={{
           backgroundColor: "white",
           width: "auto",
@@ -75,7 +76,7 @@ const About = () => {
        
       </button>
 
-      <button 
+      <button id="resume-button-2"
         style={{
           backgroundColor: "white",
           width: "auto",
