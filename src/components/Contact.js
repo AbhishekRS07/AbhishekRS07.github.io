@@ -54,7 +54,7 @@ export const Contact = () => {
                     <a style={{textDecoration:"none", color:"white",}}
                        
                       target="_blank"
-                      id="contact-linkedin"  href="https://www.linkedin.com/in/abhishekrs07/"
+                      id="contact-linkedin"  href="https://linkedin.com/in/abhishekrs07"
                     >
                       Abhishek Raj Singh
                     </a>
@@ -62,7 +62,7 @@ export const Contact = () => {
 
                   <br />
                   <p>My Github {' '}{' '}
-                    <a  id="contact-github" href="https://www.github.com/abhishekrs07/">AbhishekRS07</a></p>
+                    <a  id="contact-github" href="https://github.com/abhishekrs07">AbhishekRS07</a></p>
                     <br />
                   <p id="contact-phone">Reach me on my cell - {" "} +91 638-761-8397</p>
                   
