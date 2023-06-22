@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c8a528fd.css",
-    "main.js": "/static/js/main.10f4a677.js",
+    "main.js": "/static/js/main.2f1be5fc.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/headerImg1.png": "/static/media/headerImg1.00abebc9a8706fc043ee.png",
     "static/media/project2.png": "/static/media/project2.9ce87471d53b2c67f7b9.png",
@@ -13,6 +13,7 @@
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/resume.pdf": "/static/media/resume.572a6099ffdf8bb67808.pdf",
     "static/media/logoMain.png": "/static/media/logoMain.66f97bbd7af55195e22a.png",
     "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -34,11 +35,11 @@
     "static/media/arrow1.svg": "/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.c8a528fd.css.map": "/static/css/main.c8a528fd.css.map",
-    "main.10f4a677.js.map": "/static/js/main.10f4a677.js.map",
+    "main.2f1be5fc.js.map": "/static/js/main.2f1be5fc.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8a528fd.css",
-    "static/js/main.10f4a677.js"
+    "static/js/main.2f1be5fc.js"
   ]
 }
