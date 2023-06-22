@@ -38,6 +38,7 @@ const About = () => {
           lineHeight: "1.5em",
           width: "96%",
         }}
+       id= 'about.about.section'
       >
         About Me{" "}
       </h3>
@@ -48,7 +49,9 @@ const About = () => {
           letterSpacing: "0.8px",
           lineHeight: "1.5em",
           width: "96%",
+
         }}
+        id="user-detail-intro"
       >
         My name is Abhishek Raj Singh, I’m a web developer. I spend my whole day,
         practically every day, experimenting with HTML, CSS and JavaScript;

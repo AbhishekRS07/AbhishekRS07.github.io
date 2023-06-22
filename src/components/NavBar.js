@@ -53,11 +53,11 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link
+               class='nav-link.home'
                 href="#home"
-                class=".nav-link.home"
                 className= {
                   activeLink === "home" ? "active navbar-link" : "navbar-link"
-                }
+                } 
                 onClick={() => onUpdateActiveLink("home")}
               >
                 Home
@@ -65,7 +65,7 @@ export const NavBar = () => {
 
               <Nav.Link
                 href="#about"
-                class=".nav-link.about"
+                class="nav-link.about"
                 className={
                   activeLink === "about" ? "active navbar-link" : "navbar-link"
                 }
