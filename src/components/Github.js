@@ -14,7 +14,7 @@ const Github = () => {
          <img id="github-streak-stats" src='https://github-readme-streak-stats.herokuapp.com?user=AbhishekRS07' alt=''/>
             </div>
             <div>
-            <img id="github-top-langs" src=' https://github-readme-stats.vercel.app/api/top-langs/?username=AbhishekRS07' alt=''/>
+            <img id="github-top-langs" src='https://github-readme-stats.vercel.app/api/top-langs/?username=AbhishekRS07' alt=''/>
             </div>
             <div>
             <img id="github-stats-card" src='https://github-readme-stats.vercel.app/api?username=AbhishekRS07' alt=''/>

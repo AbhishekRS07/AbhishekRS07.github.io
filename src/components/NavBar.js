@@ -53,7 +53,7 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link
-               class='nav-link.home'
+               class='nav-link home'
                 href="#home"
                 className= {
                   activeLink === "home" ? "active navbar-link" : "navbar-link"

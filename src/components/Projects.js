@@ -32,6 +32,13 @@ export const Projects = () => {
       link1:" ",
       link2:"",
     },
+    {
+      title: "Empty",
+      description: "Empty",
+      imgUrl: projImg3,
+      link1:" ",
+      link2:"",
+    },
   ];
 
   return (

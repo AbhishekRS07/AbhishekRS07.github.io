@@ -37,27 +37,27 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <p>I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction.<br></br> I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
+                            <div class="skills-card" className="item">
                                 <img  class="skills-card-img" src={meter1} alt="Image" />
                                 <h5 class="skills-card-name">Web Development</h5>
                             </div>
-                            <div className="item">
+                            <div class="skills-card" className="item">
                                 <img  class="skills-card-img" src={meter2} alt="Image" />
                                 <h5 class="skills-card-name">HTML</h5>
                             </div>
-                            <div className="item">
+                            <div class="skills-card" className="item">
                                 <img  class="skills-card-img" src={meter3} alt="Image" />
                                 <h5 class="skills-card-name">CSS</h5>
                             </div>
-                            <div className="item">
+                            <div class="skills-card" className="item">
                                 <img  class="skills-card-img" src={meter1} alt="Image" />
                                 <h5 class="skills-card-name">React</h5>
                             </div>
-                            <div className="item">
+                            <div class="skills-card" className="item">
                                 <img  class="skills-card-img" src={meter3} alt="Image" />
                                 <h5 class="skills-card-name">Java</h5>
                             </div>
-                            <div className="item">
+                            <div class="skills-card" className="item">
                                 <img  class="skills-card-img" src={meter1} alt="Image" />
                                 <h5 class="skills-card-name" >JavaScript</h5>
                             </div>
