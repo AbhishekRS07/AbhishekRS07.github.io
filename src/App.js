@@ -8,6 +8,7 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import  About  from "./components/About";
+import  Github  from "./components/Github";
 import TechStacks from './components/TechStacks';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Skills />
       <TechStacks/>
       <Projects />
+      <Github/>
       <Contact />
       <Footer />
     </div>

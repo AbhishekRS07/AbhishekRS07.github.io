@@ -7,10 +7,11 @@ import mongodb from "../assets/img/mongodb.svg"
 import github from "../assets/img/github.svg"
 import netlify from "../assets/img/netlify.png"
 import react from "../assets/img/react.png"
+import "./mix.css"
 
 const TechStacks = () => {
   return (
-    <div  style={{display:"flex",height:"180px",alignItems:"center" ,justifyContent:"space-around", backgroundColor:"black"}} className='techStacks' >
+    <div  className='techStacks' >
          
          <div  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
          <img style={{width:"75%"}} src={java} alt=''/>

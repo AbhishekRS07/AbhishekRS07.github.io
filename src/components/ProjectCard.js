@@ -9,9 +9,9 @@ export const ProjectCard = ({ title, description, imgUrl ,link1,link2,tech}) => 
           <h4  class="project-title">{title}</h4>
           <span class="project-description">{description}</span>
           <p class="project-tech-stack">{tech}</p>
-          <br />
-          <br />
-          <a class="project-deployed-link" target="_blank" href={link2}>
+          
+          
+          <a class="project-deployed-link" style={{textDecoration:"none",color:"white",margin:"6px"}} target="_blank" href={link2}>
             {" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ export const ProjectCard = ({ title, description, imgUrl ,link1,link2,tech}) => 
             </svg>
           </a>
 
-          <a class="project-github-link" target="_blank" href={link1}>
+          <a class="project-github-link" style={{textDecoration:"none",color:"white",margin:"6px"}} target="_blank" href={link1}>
             {" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
