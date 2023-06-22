@@ -1,7 +1,7 @@
 import React from "react";
 import footer from "../assets/img/footer-bg.png";
 
-const PDF_FILE = "http://localhost:3000/resume.pdf"
+const PDF_FILE = "https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link"
 
 
 
