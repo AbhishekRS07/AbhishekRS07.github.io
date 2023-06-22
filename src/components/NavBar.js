@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logoMain from "../assets/img/logoMain.png"
+import logoMain from "../assets/img/logoMain.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
 import { BrowserRouter as Router } from "react-router-dom";
-
+const PDF_FILE = "http://localhost:3000/resume.pdf";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
@@ -29,13 +29,23 @@ export const NavBar = () => {
     setActiveLink(value);
   };
 
+  const downloadFileAtURL = (url) => {
+    const filename = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", filename);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
+
   return (
     <Router>
       <Navbar id="nav-menu" expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
             {/* <h1 style={{ color: "white" }}>Abhishek</h1> */}
-            <img src={logoMain} alt=""/>
+            <img src={logoMain} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -57,16 +67,12 @@ export const NavBar = () => {
                 href="#about"
                 class="nav-link about"
                 className={
-                  activeLink === "about"
-                    ? "active navbar-link"
-                    : "navbar-link"
+                  activeLink === "about" ? "active navbar-link" : "navbar-link"
                 }
-                
                 onClick={() => onUpdateActiveLink("about")}
               >
                 About
               </Nav.Link>
-
 
               <Nav.Link
                 href="#skills"
@@ -80,7 +86,7 @@ export const NavBar = () => {
               </Nav.Link>
               <Nav.Link
                 href="#projects"
-                
+                class="nav-link projects"
                 className={
                   activeLink === "projects"
                     ? "active navbar-link"
@@ -98,27 +104,27 @@ export const NavBar = () => {
                     ? "active navbar-link"
                     : "navbar-link"
                 }
-                
                 onClick={() => onUpdateActiveLink("connect")}
               >
                 Contact
               </Nav.Link>
                 
-
+              <Nav.Link
+                href="#about"
+                class="nav-link resume"
+                id="resume-button-1"
+                className={
+                  activeLink === "about"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={ ()=>{downloadFileAtURL(PDF_FILE)}}
+                
+              >
+                Resume
+              </Nav.Link>
+           
             </Nav>
-            {/* <span className="navbar-text">
-              <div className="social-icon">
-                <a href="#">
-                  <img src={navIcon1} alt="" />
-                </a>
-                <a href="#">
-                  <img src={navIcon2} alt="" />
-                </a>
-                <a href="#">
-                  <img src={navIcon3} alt="" />
-                </a>
-              </div>
-            </span> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>

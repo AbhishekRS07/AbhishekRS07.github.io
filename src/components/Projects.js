@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/project1.png";
+import projImg2 from "../assets/img/project2.png";
+import projImg3 from "../assets/img/project3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -10,19 +10,27 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Myntra Clone",
+      description: "A Popular E-commerce website for online shopping of clothes and accessories. ",
       imgUrl: projImg1,
+      link1:" https://github.com/AbhishekRS07/Myntra",
+      link2:"",
+      tech:"HTML|JavaScript|CSS",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Oestin",
+      description: "Oestin is a website for browsing and booking and hotels.",
       imgUrl: projImg2,
+      link1:" https://github.com/AbhishekRS07/Oestin",
+      link2:"",
+      tech:"HTML|JavaScript|CSS",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Empty",
+      description: "Empty",
       imgUrl: projImg3,
+      link1:" ",
+      link2:"",
     },
   ];
 
@@ -46,6 +54,9 @@ export const Projects = () => {
                     printer took a galley of type and scrambled it to make a
                     type specimen book.
                   </p>
+                  <br/>
+                  <br/>
+                  <br/>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Tab.Content
                       id="slideInUp"

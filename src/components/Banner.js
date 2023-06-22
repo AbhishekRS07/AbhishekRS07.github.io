@@ -64,9 +64,9 @@ export const Banner = () => {
                   }
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>
+                  <h1 id="user-detail-name" >
                     {`Hi! I'm Abhishek`}{" "}
-                    <span
+                    <span id="user-detail-intro"
                       className="txt-rotate"
                       dataPeriod="1000"
                       data-rotate='[ "Web Developer"]'
@@ -90,7 +90,7 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img
+                  <img class="home-img"
                     style={{ borderRadius: "50%" }}
                     src={headerImg1}
                     alt="Header Img"

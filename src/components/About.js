@@ -1,7 +1,24 @@
 import React from "react";
 import footer from "../assets/img/footer-bg.png";
 
+const PDF_FILE = "http://localhost:3000/resume.pdf"
+
+
+
 const About = () => {
+   
+
+    const downloadFileAtURL=(url)=>{
+        const filename = url.split("/").pop();
+        const aTag = document.createElement("a");
+        aTag.href= url;
+        aTag.setAttribute("download", filename);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+    }
+
+
   return (
     <div
       id="about"
@@ -42,7 +59,7 @@ const About = () => {
         well suited to the job at hand.
       </p>
 
-      <button
+      <button id="resume-button-2"
         style={{
           backgroundColor: "white",
           width: "auto",
@@ -51,15 +68,17 @@ const About = () => {
           marginRight: "10px",
         }}
       >
-        View Resume
+        <a style={{textDecoration:"none",color:"black"}} target="_blank" href="https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link"> View Resume </a>
+       
       </button>
-      <button
+
+      <button 
         style={{
           backgroundColor: "white",
           width: "auto",
           padding: "9px",
           borderRadius: "3px",
-        }}
+        }}  onClick={()=>{downloadFileAtURL(PDF_FILE)}}
       >
         Download Resume{" "}
       </button>
