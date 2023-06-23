@@ -61,35 +61,30 @@ const About = () => {
         changes in the state of the art so that I can meet challenges with tools
         well suited to the job at hand.
       </p>
-        
-      <button id="resume-button-1"
+
+      <button 
         style={{
           backgroundColor: "white",
           width: "auto",
           padding: "9px",
           borderRadius: "3px",
-          margin: "5px",
-        }}  onClick={()=>{downloadFileAtURL(resume)}}
-      >
-        Download Resume{" "}
-      </button>
-
-
-
-      <button  id="resume-button-1"
-        style={{
-          backgroundColor: "white",
-          width: "auto",
-          padding: "9px",
-          borderRadius: "3px",
-          margin: "5px",
+          marginRight: "10px",
         }}
       >
         <a style={{textDecoration:"none",color:"black"}} target="_blank" href="https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link"> View Resume </a>
        
       </button>
 
-     
+      <button id="resume-button-2"
+        style={{
+          backgroundColor: "white",
+          width: "auto",
+          padding: "9px",
+          borderRadius: "3px",
+        }}  onClick={()=>{downloadFileAtURL(resume)}}
+      >
+        Download Resume{" "}
+      </button>
     </div>
   );
 };
