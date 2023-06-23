@@ -4,6 +4,10 @@ import headerImg1 from "../assets/img/headerImg1.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import resume from "../assets/resume.pdf";
+
+const PDF_FILE =
+  "https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -50,6 +54,15 @@ export const Banner = () => {
       setIndex((prevIndex) => prevIndex + 1);
     }
   };
+  const downloadFileAtURL = (url) => {
+    const filename = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", filename);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
 
   return (
     <section className="banner" id="home">
@@ -64,9 +77,10 @@ export const Banner = () => {
                   }
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1 id="user-detail-name" >
+                  <h1 id="user-detail-name">
                     {`Hi! I'm Abhishek`}{" "}
-                    <span id="user-detail-intro"
+                    <span
+                      id="user-detail-intro"
                       className="txt-rotate"
                       dataPeriod="1000"
                       data-rotate='[ "I am a Web Developer"]'
@@ -74,9 +88,25 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                
+
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
+                  </button>
+
+                  <button
+                    id="resume-button-2"
+                    style={{
+                      backgroundColor: "white",
+                      width: "auto",
+                      padding: "9px",
+                      borderRadius: "3px",
+                      color:"black"
+                    }}
+                    onClick={() => {
+                      downloadFileAtURL(resume);
+                    }}
+                  >
+                    Download Resume
                   </button>
                 </div>
               )}
@@ -90,7 +120,8 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img class="home-img"
+                  <img
+                    class="home-img"
                     style={{ borderRadius: "50%" }}
                     src={headerImg1}
                     alt="Header Img"

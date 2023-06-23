@@ -62,24 +62,25 @@ const About = () => {
         well suited to the job at hand.
       </p>
          
-      <button id="resume-button-2"
+      <button
         style={{
           backgroundColor: "white",
           width: "auto",
           padding: "9px",
           borderRadius: "3px",
+          margin: "5px",
         }}  onClick={()=>{downloadFileAtURL(resume)}}
       >
         Download Resume{" "}
       </button>
-      
+
       <button 
         style={{
           backgroundColor: "white",
           width: "auto",
           padding: "9px",
           borderRadius: "3px",
-          marginRight: "10px",
+          margin: "5px",
         }}
       >
         <a style={{textDecoration:"none",color:"black"}} target="_blank" href="https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link"> View Resume </a>
