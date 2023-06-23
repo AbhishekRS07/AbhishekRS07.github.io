@@ -61,7 +61,18 @@ const About = () => {
         changes in the state of the art so that I can meet challenges with tools
         well suited to the job at hand.
       </p>
-
+         
+      <button id="resume-button-2"
+        style={{
+          backgroundColor: "white",
+          width: "auto",
+          padding: "9px",
+          borderRadius: "3px",
+        }}  onClick={()=>{downloadFileAtURL(resume)}}
+      >
+        Download Resume{" "}
+      </button>
+      
       <button 
         style={{
           backgroundColor: "white",
@@ -75,16 +86,7 @@ const About = () => {
        
       </button>
 
-      <button id="resume-button-2"
-        style={{
-          backgroundColor: "white",
-          width: "auto",
-          padding: "9px",
-          borderRadius: "3px",
-        }}  onClick={()=>{downloadFileAtURL(resume)}}
-      >
-        Download Resume{" "}
-      </button>
+    
     </div>
   );
 };
