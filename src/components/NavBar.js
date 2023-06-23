@@ -40,7 +40,7 @@ export const NavBar = () => {
   return (
     <Router>
       <Navbar  expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container>
+        <Container  id="nav-menu" >
           <Navbar.Brand href="/">
             {/* <h1 style={{ color: "white" }}>Abhishek</h1> */}
             <img src={logoMain} alt="" />
@@ -49,7 +49,7 @@ export const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav   id="nav-menu" className="ms-auto">
+            <Nav  className="ms-auto">
               <Nav.Link
                class='nav-link home'
                 href="#home"

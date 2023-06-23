@@ -29,7 +29,7 @@ export const Skills = () => {
   };
 
   return (
-    <section  id="skills" className="skill" >
+    <section className="skill" >
         <div className="container">
             <div className="row">
                 <div className="col-12">
@@ -37,7 +37,7 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <p>I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction.<br></br> I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div class="skills-card" className="item">
+                            <div   id="skills" class="skills-card" className="item">
                                 <img  class="skills-card-img" src={meter1} alt="Image" />
                                 <h5 class="skills-card-name">Web Development</h5>
                             </div>
