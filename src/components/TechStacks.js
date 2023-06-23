@@ -11,27 +11,27 @@ import "./mix.css"
 
 const TechStacks = () => {
   return (
-    <div  className='techStacks' id="skills" >
+    <div  className='techStacks' >
          
-         <div class="skills-card"  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+         <div style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
          <img style={{width:"75%"}} src={java} alt=''/>
          </div>
-          <div  class="skills-card" style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <div style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
           <img style={{width:"75%"}} src={javascript} alt=''/>
           </div>
-          <div class="skills-card"  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <div style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
           <img style={{width:"75%"}} src={html} alt=''/>
           </div>
-          <div class="skills-card"  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <div style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
           <img style={{width:"75%"}} src={css} alt=''/>
           </div>
-          <div class="skills-card"  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <div style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
           <img style={{width:"75%"}} src={mongodb} alt=''/>
           </div>
-          <div class="skills-card"  style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <div style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
           <img  style={{width:"75%"}} src={github} alt=''/>
           </div>
-          <div  class="skills-card" style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
+          <div style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
           <img style={{width:"75%"}} src={netlify} alt=''/>
           </div>
           <div class="skills-card" style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}> 
