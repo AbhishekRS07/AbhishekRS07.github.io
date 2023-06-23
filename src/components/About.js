@@ -24,8 +24,8 @@ const About = () => {
     id="about" class="about section"
       style={{
         width: "100%",
-        padding: "60px",
-        marginBottom: "100px",
+        padding: "100px",
+        marginBottom: "120px",
         background:
           " linear-gradient(90.21deg, rgba(170, 54, 124, 0.3) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)",
       }}
