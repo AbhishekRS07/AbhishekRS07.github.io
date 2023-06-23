@@ -62,7 +62,7 @@ const About = () => {
         well suited to the job at hand.
       </p>
          
-      <button
+      <button  id="resume-button-2"
         style={{
           backgroundColor: "white",
           width: "auto",
@@ -74,7 +74,7 @@ const About = () => {
         Download Resume{" "}
       </button>
 
-      <button 
+      <button  id="resume-button-2"
         style={{
           backgroundColor: "white",
           width: "auto",

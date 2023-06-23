@@ -4,10 +4,10 @@ import headerImg1 from "../assets/img/headerImg1.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import resume from "../assets/resume.pdf";
+// import resume from "../assets/resume.pdf";
 
-const PDF_FILE =
-  "https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link";
+// const PDF_FILE =
+//   "https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -54,15 +54,15 @@ export const Banner = () => {
       setIndex((prevIndex) => prevIndex + 1);
     }
   };
-  const downloadFileAtURL = (url) => {
-    const filename = url.split("/").pop();
-    const aTag = document.createElement("a");
-    aTag.href = url;
-    aTag.setAttribute("download", filename);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-  };
+  // const downloadFileAtURL = (url) => {
+  //   const filename = url.split("/").pop();
+  //   const aTag = document.createElement("a");
+  //   aTag.href = url;
+  //   aTag.setAttribute("download", filename);
+  //   document.body.appendChild(aTag);
+  //   aTag.click();
+  //   aTag.remove();
+  // };
 
   return (
     <section className="banner" id="home">
@@ -93,7 +93,7 @@ export const Banner = () => {
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
 
-                  <button
+                  {/* <button
                     id="resume-button-2"
                     style={{
                       backgroundColor: "white",
@@ -107,7 +107,7 @@ export const Banner = () => {
                     }}
                   >
                     Download Resume
-                  </button>
+                  </button> */}
                 </div>
               )}
             </TrackVisibility>

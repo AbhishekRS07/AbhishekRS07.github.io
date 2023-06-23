@@ -63,7 +63,7 @@ export const NavBar = () => {
 
               <Nav.Link
                 href="#about"
-                class="nav-link.about"
+                class="nav-link about"
                 className={
                   activeLink === "about" ? "active navbar-link" : "navbar-link"
                 }
@@ -74,7 +74,7 @@ export const NavBar = () => {
 
               <Nav.Link
                 href="#skills"
-                class=".nav-link.skills"
+                class="nav-link skills"
                 className={
                   activeLink === "skills" ? "active navbar-link" : "navbar-link"
                 }
@@ -84,7 +84,7 @@ export const NavBar = () => {
               </Nav.Link>
               <Nav.Link
                 href="#projects"
-                class=".nav-link.projects"
+                class="nav-link projects"
                 className={
                   activeLink === "projects"
                     ? "active navbar-link"
@@ -96,7 +96,7 @@ export const NavBar = () => {
               </Nav.Link>
               <Nav.Link
                 href="#contact"
-                class=".nav-link.contact"
+                class="nav-link contact"
                 className={
                   activeLink === "contact"
                     ? "active navbar-link"
@@ -109,7 +109,7 @@ export const NavBar = () => {
                 
               <Nav.Link
                 href="#about"
-                class=".nav-link.resume"
+                class=".nav-link resume"
                 id="resume-button-1"
                 className={
                   activeLink === "about"
