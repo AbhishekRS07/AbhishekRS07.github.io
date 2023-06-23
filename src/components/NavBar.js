@@ -109,7 +109,7 @@ export const NavBar = () => {
                 
               <Nav.Link
                 href="#about"
-                class=".nav-link resume"
+               
                 id="resume-button-1"
                 className={
                   activeLink === "about"
