@@ -9,10 +9,10 @@ export const ProjectCard = ({
   tech,
 }) => {
   return (
-    <Col size={12} sm={6} md={4}>
-      <div  className="proj-imgbx">
+    <Col   size={12} sm={6} md={4}>
+      <div class="project-card"  className="proj-imgbx">
         <img src={imgUrl} />
-        <div class="project-card" style={{ padding: "5px" }} className="proj-txtx">
+        <div  style={{ padding: "5px" }} className="proj-txtx" >
           <h4 class="project-title">{title}</h4>
           <span class="project-description">{description}</span>
           <p class="project-tech-stack">{tech}</p>
