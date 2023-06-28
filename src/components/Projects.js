@@ -21,7 +21,7 @@ export const Projects = () => {
       title: "Oestin",
       description: "Oestin is a website for browsing and booking and hotels.",
       imgUrl: projImg2,
-      link1:" https://github.com/AbhishekRS07/Oestin",
+      link1:" https://github.com/AbhishekRS07/Oestin-Clone",
       link2:"",
       tech:"HTML|JavaScript|CSS",
     },
