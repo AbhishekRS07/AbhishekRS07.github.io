@@ -1,13 +1,10 @@
 import React from "react";
 import resume from "../assets/resume.pdf";
 
-
 // const PDF_FILE =
 //   "https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link";
 
 const About = () => {
-
-
   const downloadFileAtURL = (url) => {
     const filename = url.split("/").pop();
     const aTag = document.createElement("a");
@@ -52,15 +49,15 @@ const About = () => {
         id="user-detail-intro"
       >
         My name is Abhishek Raj Singh, I’m a web developer. I spend my whole
-        day, practically every day, experimenting with HTML, CSS and JavaScript;
-        dabbling with React and JSX; and inhaling a wide variety of potentially
-        not so useful information through a few hundred tech feeds. I build
-        websites that delight and inform. I do it well. I do my best to stay on
-        top of changes in the state of the art so that I can meet challenges
-        with tools well suited to the job at hand.The list of projects I follow
-        on GitHub will give you a good idea of the types of tools I’d prefer to
-        be using and will give you a glimpse into the reading material I find
-        interesting enough to share.
+        day, practically every day, experimenting with HTML, CSS ,JavaScript
+        ,NodeJs,and Redux dabbling with React and MUI; and inhaling a wide
+        variety of potentially not so useful information through a few hundred
+        tech feeds. I build websites that delight and inform. I do it well. I do
+        my best to stay on top of changes in the state of the art so that I can
+        meet challenges with tools well suited to the job at hand.The list of
+        projects I follow on GitHub will give you a good idea of the types of
+        tools I’d prefer to be using and will give you a glimpse into the
+        reading material I find interesting enough to share.
       </p>
 
       <button
@@ -76,10 +73,17 @@ const About = () => {
           downloadFileAtURL(resume);
         }}
       >
-        Download Resume{" "}
+        <a
+          style={{ textDecoration: "none", color: "black" }}
+          href="https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link"
+          target="_blank"
+        >
+          {" "}
+          Download/View Resume
+        </a>
       </button>
 
-      <button
+      {/* <button
         id="resume-button-2"
         style={{
           backgroundColor: "white",
@@ -90,14 +94,14 @@ const About = () => {
         }}
       >
         <a
-          style={{ textDecoration: "none", color: "black" }}
+          
           target="_blank"
           href="https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link"
         >
           {" "}
           View Resume{" "}
         </a>
-      </button>
+      </button> */}
     </div>
   );
 };

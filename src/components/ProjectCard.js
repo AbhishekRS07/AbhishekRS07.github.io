@@ -15,7 +15,7 @@ export const ProjectCard = ({
         <div  style={{ padding: "5px" }} className="proj-txtx" >
           <h4 class="project-title">{title}</h4>
           <span class="project-description">{description}</span>
-          <p class="project-tech-stack">{tech}</p>
+          <p   class="project-tech-stack">{tech}</p>
 
           <a
             class="project-deployed-link"

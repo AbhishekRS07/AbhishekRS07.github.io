@@ -8,6 +8,9 @@ import github from "../assets/img/github.svg"
 import netlify from "../assets/img/netlify.png"
 import react from "../assets/img/react.png"
 import "./mix.css"
+import Tooltip from 'react-bootstrap/Tooltip';
+import Button from 'react-bootstrap/Button';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 
 const TechStacks = () => {
   return (

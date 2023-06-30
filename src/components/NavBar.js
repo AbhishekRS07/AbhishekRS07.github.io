@@ -118,7 +118,8 @@ export const NavBar = () => {
                 onClick={ ()=>{downloadFileAtURL(resume)}}
                 
               >
-                Resume
+               <a style={{ textDecoration: "none", color: "white" }} href="https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link"
+                target="_blank"> Resume</a>
               </Nav.Link>
            
             </Nav>
