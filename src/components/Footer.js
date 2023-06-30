@@ -20,7 +20,7 @@ export const Footer = () => {
               <a href="https://www.linkedin.com/in/abhishekrs07/"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://www.instagram.com/_abhishek_07_/"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Designed and developed by Abhishek Raj Singh</p>
           </Col>
         </Row>
       </Container>
