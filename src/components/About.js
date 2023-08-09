@@ -24,7 +24,7 @@ const About = () => {
         padding: "40px",
         marginBottom: "120px",
         background:
-          " linear-gradient(90.21deg, rgba(170, 54, 124, 0.3) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)",
+          "linear-gradient(90.21deg, rgba(170, 54, 124, 0.3) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)",
       }}
     >
       <h3
@@ -39,6 +39,7 @@ const About = () => {
         About Me{" "}
       </h3>
       <p
+       id="user-detail-intro"
         style={{
           color: "#fffff",
           fontSize: "22px",
@@ -46,7 +47,7 @@ const About = () => {
           lineHeight: "1.5em",
           width: "96%",
         }}
-        id="user-detail-intro"
+       
       >
         My name is Abhishek Raj Singh, I’m a web developer. I spend my whole
         day, practically every day, experimenting with HTML, CSS ,JavaScript

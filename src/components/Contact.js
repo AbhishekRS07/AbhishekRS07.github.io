@@ -12,7 +12,7 @@ export const Contact = () => {
   }
       const[nocopy,nosetcopy]=useState("6387618397")
   const handlecopyno=()=>{
-      navigator.clipboard.writeText(copy)
+      navigator.clipboard.writeText(nocopy)
   }
   return (
     <section id="contact" className="contact" >
