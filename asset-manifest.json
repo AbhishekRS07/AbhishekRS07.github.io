@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8a528fd.css",
-    "main.js": "/static/js/main.e6b3f3d3.js",
+    "main.css": "/static/css/main.fbcf29e2.css",
+    "main.js": "/static/js/main.34be6cb0.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/headerImg1.png": "/static/media/headerImg1.00abebc9a8706fc043ee.png",
     "static/media/project2.png": "/static/media/project2.9ce87471d53b2c67f7b9.png",
+    "static/media/project3.png": "/static/media/project3.fc8e0a274be1fee950cb.png",
     "static/media/banner-bg1.jpg": "/static/media/banner-bg1.535acaf3953d6f89de28.jpg",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/project1.png": "/static/media/project1.1575873b60013af8178b.png",
-    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/headerImg1.png": "/static/media/headerImg1.9ee5de3eec672b84fc16.png",
+    "static/media/resume.pdf": "/static/media/resume.8afef190234d8cd55c9c.pdf",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/resume.pdf": "/static/media/resume.572a6099ffdf8bb67808.pdf",
     "static/media/logoMain.png": "/static/media/logoMain.66f97bbd7af55195e22a.png",
     "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -34,12 +34,12 @@
     "static/media/arrow2.svg": "/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.c8a528fd.css.map": "/static/css/main.c8a528fd.css.map",
-    "main.e6b3f3d3.js.map": "/static/js/main.e6b3f3d3.js.map",
+    "main.fbcf29e2.css.map": "/static/css/main.fbcf29e2.css.map",
+    "main.34be6cb0.js.map": "/static/js/main.34be6cb0.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8a528fd.css",
-    "static/js/main.e6b3f3d3.js"
+    "static/css/main.fbcf29e2.css",
+    "static/js/main.34be6cb0.js"
   ]
 }
