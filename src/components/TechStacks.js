@@ -8,9 +8,7 @@ import github from "../assets/img/github.svg"
 import netlify from "../assets/img/netlify.png"
 import react from "../assets/img/react.png"
 import "./mix.css"
-import Tooltip from 'react-bootstrap/Tooltip';
-import Button from 'react-bootstrap/Button';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+
 
 const TechStacks = () => {
   return (
@@ -37,7 +35,7 @@ const TechStacks = () => {
           <div style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}>
           <img style={{width:"75%"}} src={netlify} alt=''/>
           </div>
-          <div class="skills-card" style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}> 
+          <div style={{backgroundColor:"white",width:"100px",height:"100px",borderRadius:"50%",alignItems:"center" ,justifyContent:"space-around",display:"flex"}}> 
             <img style={{width:"75%"}} src={react} alt=''/>
          </div>
       

@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logoMain from "../assets/img/logoMain.png";
-import resume from "../assets/resume.pdf"
+import resume from "../assets/resume.pdf";
 import { BrowserRouter as Router } from "react-router-dom";
 
-const PDF_FILE = "https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link";
+const PDF_FILE =
+  "https://drive.google.com/file/d/1Glp8YKhiFGOz02dVQjYJnW-5kBJJErNX/view?usp=drive_link";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
@@ -39,8 +40,8 @@ export const NavBar = () => {
 
   return (
     <Router>
-      <Navbar  expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container  id="nav-menu" >
+      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+        <Container id="nav-menu">
           <Navbar.Brand href="/">
             <img src={logoMain} alt="" />
           </Navbar.Brand>
@@ -48,13 +49,13 @@ export const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav  className="ms-auto">
+            <Nav className="ms-auto">
               <Nav.Link
-               class='nav-link home'
+                class="nav-link home"
                 href="#home"
-                className= {
+                className={
                   activeLink === "home" ? "active navbar-link" : "navbar-link"
-                } 
+                }
                 onClick={() => onUpdateActiveLink("home")}
               >
                 Home
@@ -105,23 +106,26 @@ export const NavBar = () => {
               >
                 Contact
               </Nav.Link>
-                
+
               <Nav.Link
                 href="#about"
-               
                 id="resume-button-1"
                 className={
-                  activeLink === "about"
-                    ? "active navbar-link"
-                    : "navbar-link"
+                  activeLink === "about" ? "active navbar-link" : "navbar-link"
                 }
-                onClick={ ()=>{downloadFileAtURL(resume)}}
-                
+                onClick={() => {
+                  downloadFileAtURL(resume);
+                }}
               >
-               <a style={{ textDecoration: "none", color: "white" }} href="https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link"
-                target="_blank"> Resume</a>
+                <a
+                  style={{ textDecoration: "none", color: "white" }}
+                  href="https://drive.google.com/file/d/1Glp8YKhiFGOz02dVQjYJnW-5kBJJErNX/view?usp=drive_link"
+                  target="_blank"
+                >
+                  {" "}
+                  Resume
+                </a>
               </Nav.Link>
-           
             </Nav>
           </Navbar.Collapse>
         </Container>

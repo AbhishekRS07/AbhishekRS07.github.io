@@ -1,8 +1,8 @@
 import React from "react";
 import resume from "../assets/resume.pdf";
+import "./mix.css"
 
-// const PDF_FILE =
-//   "https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link";
+
 
 const About = () => {
   const downloadFileAtURL = (url) => {
@@ -18,13 +18,10 @@ const About = () => {
   return (
     <div
       id="about"
-      class="about section"
+      className="about section"
       style={{
-        width: "100%",
-        padding: "40px",
-        marginBottom: "120px",
-        background:
-          "linear-gradient(90.21deg, rgba(170, 54, 124, 0.3) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)",
+        
+    
       }}
     >
       <h3
@@ -76,7 +73,7 @@ const About = () => {
       >
         <a
           style={{ textDecoration: "none", color: "black" }}
-          href="https://drive.google.com/file/d/1TQXVdLzSzG7ymMoD3vgNw72_M4iOLG19/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1Glp8YKhiFGOz02dVQjYJnW-5kBJJErNX/view?usp=drive_link"
           target="_blank"
         >
           {" "}

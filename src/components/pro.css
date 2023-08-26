@@ -1,0 +1,147 @@
+#parentProject {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  
+  #projecthead {
+    width: 100%;
+    height: auto;
+   padding: 40px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  #projecthead > h1,
+  p {
+    color: white;
+    line-height: 40px;
+  }
+  
+  #procardholder {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 30px;
+    /* border: 1px solid black; */
+     padding-bottom: 30px; 
+    padding-top: 30px; 
+  }
+  #procard {
+    border-radius: 17px;
+    width: 370px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(116, 116, 116) 0px 5px 15px;
+    border: 4px solid rgb(192, 187, 187);
+  }
+  #proimg {
+      width: 100%;
+      height: 200px;
+      border-radius: 15px 15px 0 0;
+      transition: transform 0.3s, box-shadow 0.3s; 
+    }
+    
+    #proimg:hover {
+      transform: scale(1.16); 
+      position: relative;
+      z-index: 1; 
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+      border-radius: 0;
+      border: 3px solid white;
+    }
+    #protitle{
+        margin-top: 15px;
+    }
+  #prodetails {
+    width: 100%;
+    height: 190px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-size: 300% 300%;
+    /* border: 1px solid black; */
+    justify-content: center;
+    background-image: linear-gradient(-45deg, #a42d74 0%,  #a836aa 25%, rgb(153, 0, 255) 51%, #4A2FBD  100%);
+    -webkit-animation: AnimateBG 4s ease infinite;
+    animation: AnimateBG 4s ease infinite;
+  }
+  @-webkit-keyframes AnimateBG {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    
+    @keyframes AnimateBG {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  #probutton {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   background-color: rgb(35, 35, 35);
+    border-radius: 0px 0px 15px 15px;
+
+  }
+  #prolive, #progit{
+      width: 70px;
+      height: 35px;
+      border-radius: 25px;
+      background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+      color: white;
+      border: 2px solid white;
+      transition: transform 0.3s; 
+  }
+  #prolive:hover{
+      color: black;
+      background-color: #d77ef2;
+      border: 2px solid white;
+      position: relative;
+      transform: scale(1.16); 
+      z-index: 1;
+  }
+  #progit:hover{
+    color: black;
+    background-color: #d77ef2;
+    border: 2px solid white;
+    position: relative;
+    transform: scale(1.16); 
+    z-index: 1;
+}
+#protech{
+  font-size: 14px;
+}
+  
+  
+  @media (max-width:800px) {
+      #procardholder {
+         width: 100%;
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+        
+          place-items:center;
+      }
+      
+  }

@@ -82,7 +82,7 @@ export const Banner = () => {
                     <span
                       id="user-detail-intro"
                       className="txt-rotate"
-                      dataPeriod="1000"
+                      dataperiod="1000"
                       data-rotate='[ "I am a Web Developer"]'
                     >
                       <span className="wrap">{text}</span>
