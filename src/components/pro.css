@@ -143,5 +143,7 @@
         
           place-items:center;
       }
-      
+      #procard {
+        width: 98%;
+      }
   }

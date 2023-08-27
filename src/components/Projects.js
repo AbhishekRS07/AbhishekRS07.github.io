@@ -2,8 +2,11 @@
 import projImg1 from "../assets/img/project1.png";
 import projImg2 from "../assets/img/project2.png";
 import projImg3 from "../assets/img/project3.png";
-import "animate.css";
+// import "animate.css";
+import AOS from "aos"
+import "aos/dist/aos.css"
 import "./pro.css";
+import { useEffect } from "react";
 
 const Projects= () => {
   const projects = [
@@ -44,6 +47,12 @@ const Projects= () => {
   const openLink = (link) => {
     window.open(link, "_blank");
   };
+
+
+    useEffect(()=>{
+    AOS.init({duration:1500})
+    },[])
+  
   return (
     <div id="parentProject">
       <div id="projecthead">
@@ -53,7 +62,7 @@ const Projects= () => {
 
       <div id="procardholder">
         {projects.map((elem) => (
-          <div key={elem.title} id="procard">
+          <div data-aos="fade-up" key={elem.title} id="procard">
             <img id="proimg" src={elem.imgUrl} alt="" />
 
             <div id="prodetails">
