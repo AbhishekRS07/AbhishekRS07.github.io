@@ -54,7 +54,7 @@ const Projects= () => {
     },[])
   
   return (
-    <div id="parentProject">
+    <div id="projects">
       <div id="projecthead">
         <h1 style={{fontWeight:"800"}}>Projects</h1>
         <p style={{fontSize:"20px"}}>Here are some of my Projects</p>
