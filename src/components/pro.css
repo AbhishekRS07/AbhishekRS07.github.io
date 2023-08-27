@@ -143,7 +143,15 @@
         
           place-items:center;
       }
-      #procard {
-        width: 98%;
-      }
+     
   }
+
+  @media (max-width:800px) {
+    #procard {
+      width: 90%;
+    }
+   
+}
+
+
+  
