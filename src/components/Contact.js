@@ -1,6 +1,7 @@
 import { Container, Row, Col,Toast } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import "animate.css";
+import "./mix.css"
 import TrackVisibility from "react-on-screen";
 import { useState } from "react";
 
@@ -17,7 +18,7 @@ export const Contact = () => {
   return (
     <section id="contact" className="contact" >
       <Container>
-        <Row className="align-items-center">
+        <Row  style={{ fontWeight: "700" ,fontSize:"20px"}} className="align-items-center">
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) => (
@@ -41,7 +42,7 @@ export const Contact = () => {
                   }
                 >
                   <h2>Get In Touch</h2>
-                  <button style={{color:"white",textDecoration:"underline"}} onClick={handlecopy}  >Click To Copy Email</button>
+                  <button style={{color:"white",textDecoration:"underline"}} onClick={handlecopy}>Click To Copy Email</button>
                   <p   style={{ fontFamily: "Centra" }} id="contact-email">
                     If you are looking to get ahold of me, you can send me an
                     email at -- abhiraj812000@gmail.com

@@ -153,7 +153,7 @@ p {
 
 @media (max-width: 400px) {
   #procard {
-    max-width: 100%; /* Adjust card max-width for very small screens */
+    max-width: 85%; 
     height: auto;
   }
   #proimg{
@@ -161,6 +161,7 @@ p {
   }
   #prodetails{
     height: auto;
+    /* line-height: 10px; */
   }
   #probutton{
     height: auto;
